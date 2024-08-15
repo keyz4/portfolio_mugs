@@ -16,18 +16,100 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.poppins {
+  font-family: var(--font-poppins);
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+@font-face {
+  font-family: 'Corvetta';
+  src: url('/fonts/CorvettaPersonalUse.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.slider-thumb::-webkit-slider-runnable-track {
+  background: linear-gradient(to right, #f97316 var(--value), #EDECEC var(--value));
+  height: 8px;
+  border-radius: 5px;
+}
+
+.slider-thumb::-moz-range-track {
+  background: linear-gradient(to right, #f97316 var(--value), #EDECEC var(--value));
+  height: 8px;
+  border-radius: 5px;
+}
+
+.slider-thumb::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  background-color: #EDECEC;
+  border: 2px solid #f97316;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slider-thumb::-moz-range-thumb {
+  width: 24px;
+  height: 24px;
+  background-color: #EDECEC;
+  border: 2px solid #f97316;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slick-slide>div {
+  margin: 0 30px;
+  width: 60rem;
+}
+
+@media (max-width: 768px) {
+  .slick-slide > div {
+    margin: 0 15px; /* Adjust the margin as needed */
+  }
+}
+
+
+.slick-slide>div:nth-child(1) {
+  margin-left: 0;
+}
+
+.slick-list {
+  margin-right: -30px;
+}
+
+.slick-dots {
+  display: flex !important;
+  justify-content: center; /* Center the dots horizontally */
+  gap: 20px; /* Add space between the dots */
+  margin-top: 2rem; /* Adjust the margin as needed */
+}
+
+.slick-dots li {
+  margin: 0; /* Remove default margin */
+}
+
+.slick-dots li button:before {
+  color: transparent; /* Hide default dots */
+}
+
+.slick-dots li button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 12px;
 }
