@@ -50,8 +50,8 @@
   appearance: none;
   width: 24px;
   height: 24px;
-  background-color: #EDECEC;
-  border: 2px solid #f97316;
+  background-color: #ffffff; /* White thumb */
+  border: 2px solid #f97316; /* Orange border */
   border-radius: 50%;
   cursor: pointer;
   position: relative;
@@ -62,8 +62,8 @@
 .slider-thumb::-moz-range-thumb {
   width: 24px;
   height: 24px;
-  background-color: #EDECEC;
-  border: 2px solid #f97316;
+  background-color: #ffffff; /* White thumb */
+  border: 2px solid #f97316; /* Orange border */
   border-radius: 50%;
   cursor: pointer;
   position: relative;
@@ -71,7 +71,7 @@
   transform: translateY(-50%);
 }
 
-.slick-slide>div {
+.slick-slide > div {
   margin: 0 30px;
   width: 60rem;
 }
@@ -82,8 +82,7 @@
   }
 }
 
-
-.slick-slide>div:nth-child(1) {
+.slick-slide > div:nth-child(1) {
   margin-left: 0;
 }
 

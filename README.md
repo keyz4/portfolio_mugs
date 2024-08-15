@@ -23,11 +23,11 @@ To set up the project locally, follow these steps:
 2. **Add Dependencies:**
     ```bash
     npm install
-    npm install react-icons slick-carousel react-slick
+    npm install react-icons slick-carousel react-slick styled-components
 
 Alternatively, if you prefer using yarn, you can run:
 
-    yarn add react-icons slick-carousel react-slick
+    yarn add react-icons slick-carousel react-slick styled-components
 
 If you are setting up a development environment and need to ensure all development dependencies are installed, use:
 
