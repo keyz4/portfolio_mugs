@@ -21,7 +21,7 @@ function Contact() {
         <input 
           type="text" 
           placeholder='Enter your email'
-          className='h-[3.5rem] w-full md:w-[68%] rounded-xl p-8 text-xl bg-[#EDECEC] dark:bg-white mb-4 md:mb-0' 
+          className='h-[3.5rem] w-full md:w-[68%] rounded-xl p-8 text-xl bg-[#EDECEC] dark:bg-white mb-4 md:mb-0 text-black' 
         />
 
         {/* Submit button */}
