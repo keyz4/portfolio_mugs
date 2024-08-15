@@ -4,14 +4,14 @@ import Image from 'next/image';
 
 function About() {
   const uxValue = 90;
-  const webDesignValue = 85;
-  const appDesignValue = 97;
+  const webDesignValue = 95;
+  const appDesignValue = 80;
   const graphicDesignValue = 90;
 
-  const uxRef = useRef(null);
-  const webDesignRef = useRef(null);
-  const appDesignRef = useRef(null);
-  const graphicDesignRef = useRef(null);
+  const uxRef = useRef<HTMLInputElement>(null);
+  const webDesignRef = useRef<HTMLInputElement>(null);
+  const appDesignRef = useRef<HTMLInputElement>(null);
+  const graphicDesignRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
     if (uxRef.current) {
