@@ -6,7 +6,7 @@ function Contact() {
       
       {/* Heading */}
       <div className='text-3xl md:text-5xl font-bold text-center'>
-        Let's Design Together
+        Let&apos;s Design Together
       </div>
 
       {/* Description */}

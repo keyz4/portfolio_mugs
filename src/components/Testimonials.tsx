@@ -68,10 +68,10 @@ const Testimonials = () => {
                 <div className="text-left w-[38rem] pr-8 flex flex-col justify-center">
                   {/* Ensure the text content is centered vertically */}
                   <div className="flex items-start">
-                    <div className='text-orange-500 text-4xl italic mr-2'>"</div>
+                    <div className='text-orange-500 text-4xl italic mr-2'>&quot;</div>
                     <p className="text-black text-lg leading-relaxed">
                       Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim malesuada commodo ultrices.
-                      <span className='text-orange-500 text-4xl italic'>"</span>
+                      <span className='text-orange-500 text-4xl italic'>&quot;</span>
                     </p>
                   </div>
                   
