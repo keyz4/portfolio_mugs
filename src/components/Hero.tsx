@@ -43,7 +43,7 @@ function Hero() {
         {/* Top Layer Image */}
         <div className='absolute ml-4 md:ml-[1rem] mt-6 md:mt-[5rem] h-[20.8rem] md:h-[25rem] w-[20.8rem] md:w-[25rem] z-10'>
           <Image
-            src="/layer0top.png" // Path to the top layer image
+            src="/Layertop.png" // Path to the top layer image
             alt="Top Layer" // Description of the image
             width={600} // Image width
             height={400} // Image height
@@ -55,7 +55,7 @@ function Hero() {
         {/* Main Image with Circular Border */}
         <div className='rounded-full border-6 md:border-8 border-orange-500 h-[20rem] md:h-[25rem] w-[20rem] md:w-[25rem] mt-10 md:mt-40 flex justify-center items-center overflow-hidden'>
           <Image
-            src="/layer0bottom.png" // Path to the bottom layer image
+            src="/Layerbottom.png" // Path to the bottom layer image
             alt="Bottom Layer" // Description of the image
             width={600} // Image width
             height={400} // Image height
