@@ -19,8 +19,8 @@ const Testimonials = () => {
     autoplay: true,
     autoplaySpeed: 2000,
     focusOnSelect: true,
-    beforeChange: (current: number, next: number) => setCurrentSlide(next), // Explicitly typing current and next as numbers
-    customPaging: i => (
+    beforeChange: (current: number, next: number) => setCurrentSlide(next),
+    customPaging: (i: number) => (
       <div
         className={`w-12 h-4 bg-gray-200 rounded-lg cursor-pointer mt-[8rem] ${i === currentSlide ? 'bg-orange-500' : ''}`}
         data-index={i}
